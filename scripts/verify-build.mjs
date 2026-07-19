@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import { fileURLToPath } from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const dist=path.join(root,'dist');
+const required=['index.html','assets/app.js','assets/styles.css','data/wiki-data.json','data/wiki-data.js','data/validation.json'];
+for(const rel of required){if(!fs.existsSync(path.join(dist,rel)))throw new Error(`누락된 빌드 파일: ${rel}`)}
+const json=JSON.parse(fs.readFileSync(path.join(dist,'data/wiki-data.json'),'utf8'));
+const js=fs.readFileSync(path.join(dist,'data/wiki-data.js'),'utf8');
+const context={window:{}};
+vm.runInNewContext(js,context);
+const bundled=context.window.KGW_DATA || context.window.__WIKI_DATA__ || context.window.__ECHEM_WIKI_DATA__;
+if(!bundled)throw new Error('wiki-data.js에 데이터가 없습니다.');
+const documents=json.documents || json.notes || [];
+const bundledDocuments=bundled.documents || bundled.notes || [];
+if((bundled.nodes||[]).length!==(json.nodes||[]).length || (bundled.edges||[]).length!==(json.edges||[]).length || bundledDocuments.length!==documents.length)throw new Error('JS/JSON 데이터 불일치');
+const validation=JSON.parse(fs.readFileSync(path.join(dist,'data/validation.json'),'utf8'));
+if(validation.passed===false || Number(validation.errors||0)>0)throw new Error('validation.json이 실패 상태입니다.');
+console.log(`빌드 검증 통과: ${(json.nodes||[]).length}개 노드, ${(json.edges||[]).length}개 관계, ${documents.length}개 문서`);

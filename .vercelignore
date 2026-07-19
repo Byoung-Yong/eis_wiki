@@ -1,0 +1,5 @@
+node_modules
+.git
+releases
+*.zip
+*.tar.gz

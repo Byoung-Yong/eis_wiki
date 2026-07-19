@@ -1,0 +1,35 @@
+{
+  "source_file": "eis_wiki_v1_8-standalone(1).html",
+  "source_sha256": "36802e64da671222cb5416adde36e5d4e9e08940fa58c8f01ae9fef476ee29b7",
+  "project_version": "1.8.0-markdown",
+  "documents": 208,
+  "content_counts": {
+    "note": 190,
+    "moc": 10,
+    "graph": 7,
+    "pages": 1
+  },
+  "nodes": 208,
+  "typed_relations": 710,
+  "semantic_nodes": 190,
+  "semantic_edges": 320,
+  "communities": 9,
+  "status_counts": {
+    "reviewed": 151,
+    "core-reviewed": 57
+  },
+  "missing_documents": [],
+  "extra_documents": [],
+  "body_mismatch_count": 0,
+  "relation_mismatch_count": 0,
+  "metadata_mismatch_count": 0,
+  "exact_content_preservation": true,
+  "build_checks": {
+    "npm_check": "pass",
+    "npm_build": "pass",
+    "math_integrity": "pass",
+    "ui_contract": "13/13 pass",
+    "standalone": "pass",
+    "http_status": 200
+  }
+}
