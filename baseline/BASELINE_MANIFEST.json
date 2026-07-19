@@ -1,0 +1,14 @@
+{
+  "source": "eis_wiki_v1_8-standalone(1).html",
+  "version": "1.8.0",
+  "document_counts": {
+    "note": 190,
+    "moc": 10,
+    "graph": 7,
+    "pages": 1
+  },
+  "documents": 208,
+  "nodes": 208,
+  "relations": 710,
+  "source_sha256": "36802e64da671222cb5416adde36e5d4e9e08940fa58c8f01ae9fef476ee29b7"
+}

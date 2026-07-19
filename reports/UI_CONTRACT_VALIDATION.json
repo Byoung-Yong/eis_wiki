@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "quick_view_overview": true,
+    "quick_view_focus": true,
+    "quick_depth": true,
+    "sigma_overview": true,
+    "forceatlas_layout_data": true,
+    "focus_dandelion": true,
+    "focus_animation": true,
+    "sidebar_sync_function": true,
+    "sidebar_smooth_scroll": true,
+    "sidebar_target_highlight": true,
+    "community_label_without_number_prefix": true,
+    "inactive_identity_tone": true,
+    "all_circle_nodes": true
+  },
+  "error_count": 0,
+  "errors": []
+}

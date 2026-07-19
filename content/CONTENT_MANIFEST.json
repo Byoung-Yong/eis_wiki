@@ -1,0 +1,1877 @@
+{
+  "version": "1.8.0",
+  "documents": [
+    {
+      "id": "EIS_TWO_ELECTRODE",
+      "title": "2전극 EIS",
+      "file": "note/2전극 EIS.md",
+      "sha256": "976cfcfd83bd0597f6fe5bd6a1fe15ba89c5ce7670cc20b9fcb53e32b7059134",
+      "status": "reviewed",
+      "type": "MeasurementConfiguration",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_THREE_ELECTRODE",
+      "title": "3전극 EIS",
+      "file": "note/3전극 EIS.md",
+      "sha256": "42d2f94159ac2446be10cd506040287b836f2874cf263a24ea5dbc2e9bfd0a06",
+      "status": "core-reviewed",
+      "type": "MeasurementConfiguration",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_FOUR_ELECTRODE",
+      "title": "4전극 EIS",
+      "file": "note/4전극 EIS.md",
+      "sha256": "33f13fca7e92b206c75e1019ff7ecbfbf966fbe05b56b299933b6f028dbd96c8",
+      "status": "reviewed",
+      "type": "MeasurementConfiguration",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_CPE_EFFECTIVE_CAPACITANCE",
+      "title": "CPE 유효 정전용량",
+      "file": "note/CPE 유효 정전용량.md",
+      "sha256": "5bb8adef74a6fa70979070897d7c368bcb34ce4107763d1800ae98867e24ce9e",
+      "status": "reviewed",
+      "type": "ModelParameter",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_CPE_EXPONENT",
+      "title": "CPE 지수",
+      "file": "note/CPE 지수.md",
+      "sha256": "ccd2f9f2e180007be69e69142cbe8533b54f20777f78f61a3e4fe5096af44af1",
+      "status": "reviewed",
+      "type": "ModelParameter",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_DRT_BOUNDARY_EFFECT",
+      "title": "DRT 경계 효과",
+      "file": "note/DRT 경계 효과.md",
+      "sha256": "191e7885266860b17155729fb039a0a40e8ab14a80c405b99f8b16975a2e6e87",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DRT_UNCERTAINTY",
+      "title": "DRT 불확실성",
+      "file": "note/DRT 불확실성.md",
+      "sha256": "00aa306b5ecd7c3b8444791a950a9b146f6adaca4501d1efac909daa2e18052f",
+      "status": "reviewed",
+      "type": "AnalysisOutput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DRT_PLOT",
+      "title": "DRT 선도",
+      "file": "note/DRT 선도.md",
+      "sha256": "fed481479dc81d2a96fe6fe2530b82e65df9c4294ddbfc72b5d48e2f175676f8",
+      "status": "reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_DRT_REGULARIZATION",
+      "title": "DRT 정칙화",
+      "file": "note/DRT 정칙화.md",
+      "sha256": "223b45d444e76e6558ad7e2e6009446ba3d4ae836b7e498ab929e494807194da",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DRT_KERNEL",
+      "title": "DRT 커널 함수",
+      "file": "note/DRT 커널 함수.md",
+      "sha256": "7b6cf262aca9d72fe8f98bbd051bc655361d023878462bf208c7bc9770ea27ba",
+      "status": "reviewed",
+      "type": "MathematicalObject",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DRT_RESOLUTION",
+      "title": "DRT 해상도",
+      "file": "note/DRT 해상도.md",
+      "sha256": "62d7e040ef1ffc9e10628051f4c24883ddcb290408dcc4b7baa87d8ed5ae9404",
+      "status": "core-reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_MACHINE_LEARNING",
+      "title": "EIS 기계 학습",
+      "file": "note/EIS 기계 학습.md",
+      "sha256": "b842b474ee046cedc7f7a02f7b38de0ddd5093f551b9182ebbbbfb043146b71d",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_PREPROCESSING",
+      "title": "EIS 데이터 전처리",
+      "file": "note/EIS 데이터 전처리.md",
+      "sha256": "a99a3c0a872c3ddf7aaff77b1b0a95286063b07223927a1919fef537a4f888da",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_PARAMETER_REGRESSION",
+      "title": "EIS 매개변수 회귀",
+      "file": "note/EIS 매개변수 회귀.md",
+      "sha256": "ff184fb81c51548ffd5f5ea11903a4e8648febe626df9a497618dfb18498d6bf",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_METADATA",
+      "title": "EIS 메타데이터",
+      "file": "note/EIS 메타데이터.md",
+      "sha256": "5dab82331e93a0f864b6c9a80b8cf1eb26a9bca70647db835505e1cae0b4b094",
+      "status": "reviewed",
+      "type": "DataStructure",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_MODEL_COMPARISON",
+      "title": "EIS 모델 비교",
+      "file": "note/EIS 모델 비교.md",
+      "sha256": "dd49d54b79acd16e246ecb7764da3a11092bdc75ca325781dec5fe0e1e99d81e",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_MODEL_IDENTIFIABILITY",
+      "title": "EIS 모델 식별가능성",
+      "file": "note/EIS 모델 식별가능성.md",
+      "sha256": "fe213bd73967acd5e6a77f020afa1cc5610392c3726800112d25287bcb141754",
+      "status": "core-reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DOMAIN_SHIFT",
+      "title": "EIS 분포 이동",
+      "file": "note/EIS 분포 이동.md",
+      "sha256": "d0dfe0ba1265d8c9c9b748f4576fd9aa2adc6bfed16ec648a01ffaae3a0ad403",
+      "status": "core-reviewed",
+      "type": "Limitation",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_LINEARITY",
+      "title": "EIS 선형성",
+      "file": "note/EIS 선형성.md",
+      "sha256": "6545ce526998521b6f0a7bbe57d34b5a420f8526a3ed6aa455d5aa0200061bdf",
+      "status": "core-reviewed",
+      "type": "ValidationCriterion",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_CELL_CONFIGURATION",
+      "title": "EIS 셀 구성",
+      "file": "note/EIS 셀 구성.md",
+      "sha256": "88d251404c8d2548d284598277787bb7042500bee7846296f8536b6a4949bf5a",
+      "status": "reviewed",
+      "type": "Concept",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_OUTLIER",
+      "title": "EIS 이상치",
+      "file": "note/EIS 이상치.md",
+      "sha256": "9f7f2371fcf891e0f9e0224002a02ca07993214849de16ab33be6ee55597d9dd",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_WEIGHTING",
+      "title": "EIS 잔차 가중",
+      "file": "note/EIS 잔차 가중.md",
+      "sha256": "a922371ba8edccf14da346ec81ed67e0d0ab69a3025eaa2f438f8e8f33dcf7ba",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_NOISE",
+      "title": "EIS 잡음",
+      "file": "note/EIS 잡음.md",
+      "sha256": "fff33b21a8b2214dff3909cf260d906de33e55b91923132d95ed05960176494c",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_REPRODUCIBILITY",
+      "title": "EIS 재현성",
+      "file": "note/EIS 재현성.md",
+      "sha256": "da047ff1120332f5ad025c243d75d540dfc93788d83be5035cc6d80d09794d67",
+      "status": "core-reviewed",
+      "type": "QualityAttribute",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_STATIONARITY",
+      "title": "EIS 정상성",
+      "file": "note/EIS 정상성.md",
+      "sha256": "169ef1d77fd86cdcbe1f335c3a4515772105fbf9c88fe889a56ed4314e51993d",
+      "status": "core-reviewed",
+      "type": "ValidationCriterion",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_MINIMUM_REPORTING",
+      "title": "EIS 최소 보고 항목",
+      "file": "note/EIS 최소 보고 항목.md",
+      "sha256": "f161e9676cf331f98ecd69a57104f49d0f538fcc419626c15b774209b502fe00",
+      "status": "core-reviewed",
+      "type": "ReportingStandard",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_ACQUISITION_TIME",
+      "title": "EIS 측정 시간",
+      "file": "note/EIS 측정 시간.md",
+      "sha256": "2a6b59d99e2a0e588e16c9b84c42a45111e82da8c4244dc607a08cbcb2ec448d",
+      "status": "core-reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_L_CURVE",
+      "title": "L-곡선",
+      "file": "note/L-곡선.md",
+      "sha256": "7cebd7fa5a5b7eb692f78557c0aeece60063328f1225e91f91fb00ebf1336b4e",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_L1_REGULARIZATION",
+      "title": "L1 정칙화",
+      "file": "note/L1 정칙화.md",
+      "sha256": "e841495ddd924b3c876cafac54ab6734bae1271d0985805c67351d302de3f095",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_RC_LADDER",
+      "title": "RC 사다리 회로",
+      "file": "note/RC 사다리 회로.md",
+      "sha256": "24f44059188d9e2c5727ef967a49c101e0cb6fd6784095b382fe63c6e05d73bc",
+      "status": "reviewed",
+      "type": "CircuitModel",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_R_CPE_MODEL",
+      "title": "R–CPE 모델",
+      "file": "note/R–CPE 모델.md",
+      "sha256": "d28e181c15b23fc9077acb19503ff8f1f9c8c049a9c4e25e5ec920e6d6646093",
+      "status": "reviewed",
+      "type": "CircuitModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_ZHIT",
+      "title": "Z-HIT",
+      "file": "note/Z-HIT.md",
+      "sha256": "4ec03165a67be33caf0a33c7f3fcb8b0f2f4cadf496ae55c266173da10e3ee03",
+      "status": "reviewed",
+      "type": "ValidationMethod",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_ANGULAR_FREQUENCY",
+      "title": "각주파수",
+      "file": "note/각주파수.md",
+      "sha256": "7401e91f94b70ef21604ad8177d07fe6896e86557a48e5e1b8c3df8faac1b5a1",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_OCP_MEASUREMENT",
+      "title": "개방회로 EIS",
+      "file": "note/개방회로 EIS.md",
+      "sha256": "a621ba2348dd81b8aabdf9b5a0e5912cdd6f000fe6c367c3b4828755d6699c40",
+      "status": "reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_GERISCHER",
+      "title": "게리셔 임피던스",
+      "file": "note/게리셔 임피던스.md",
+      "sha256": "7dd9b3b63f3c3446db3eb9e33cffa63e96e01ab5311abb595eb079fde6c0833e",
+      "status": "reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_CHARGE_TRANSFER",
+      "title": "계면 전하 이동",
+      "file": "note/계면 전하 이동.md",
+      "sha256": "1e544f6e9bc116b42cf8a04697d335ae8cb0058aff566e98bbee0707b4672640",
+      "status": "core-reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_FILM_MODEL",
+      "title": "계면막 임피던스 모델",
+      "file": "note/계면막 임피던스 모델.md",
+      "sha256": "c8558255f28b6c39f54bfb84d8c6a99286219abc28a43a5c4f452794afe4c400",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_INTERFACIAL_FILM",
+      "title": "계면막",
+      "file": "note/계면막.md",
+      "sha256": "ae4fa4166c5261dd75d4443d76e0794e738c44353c4ebece13aad51281667abe",
+      "status": "reviewed",
+      "type": "Entity",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_SYSTEM_EVOLUTION_TIME",
+      "title": "계의 변화 시간척도",
+      "file": "note/계의 변화 시간척도.md",
+      "sha256": "9006f2b66052d5894af259e88c28de0d18a7d126127e1a6118d1b6c2c0d7f19e",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_INSTRUMENT_BANDWIDTH",
+      "title": "계측기 대역폭",
+      "file": "note/계측기 대역폭.md",
+      "sha256": "38e3968dfd4699f58f1661b9402ef8730c19ce5cd32b53e56d6283f3e15a6c45",
+      "status": "core-reviewed",
+      "type": "Condition",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_HIGH_FREQUENCY_ARTIFACT",
+      "title": "고주파 계측 왜곡",
+      "file": "note/고주파 계측 왜곡.md",
+      "sha256": "e114926415c87bae0d2b16412ee0feff072536218fa98a9570f3367660b1fef8",
+      "status": "core-reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_SOLID_STATE_DIFFUSION",
+      "title": "고체 내 확산",
+      "file": "note/고체 내 확산.md",
+      "sha256": "243349542b0c50fcbe7d76f9787b07ab129f667fe3f27d7da1d8c6520b3587eb",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_SOLID_ELECTROLYTE_APPLICATION",
+      "title": "고체 전해질 EIS",
+      "file": "note/고체 전해질 EIS.md",
+      "sha256": "ac25c4562bee7c4e16bc84bc71db2594b2d66fd00e7139fe3cbe6d8212eac6c1",
+      "status": "reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_OVERPARAMETERIZATION",
+      "title": "과도한 매개변수화",
+      "file": "note/과도한 매개변수화.md",
+      "sha256": "09bfcfcedd27b7b85fac26c5a8bfc8a96dfc07ebca9c960e30fc6bb86228e973",
+      "status": "reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_OVERFITTING",
+      "title": "과적합",
+      "file": "note/과적합.md",
+      "sha256": "aaeb044a88799d31683b50f271e5fd36176a85750d917636cd482079c891420a",
+      "status": "reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_BROADBAND_EXCITATION",
+      "title": "광대역 자극",
+      "file": "note/광대역 자극.md",
+      "sha256": "b9229dcc849cda4444d72c6a19bf0f38a55d363eea6f9cc5f6a2184fe50aab90",
+      "status": "reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_CURRENT_RESPONSE",
+      "title": "교류 전류 응답",
+      "file": "note/교류 전류 응답.md",
+      "sha256": "89e949c203092162cd95db1069b288d8a0e0756218bb422bc02ab729cedb8ce7",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_VOLTAGE_RESPONSE",
+      "title": "교류 전압 응답",
+      "file": "note/교류 전압 응답.md",
+      "sha256": "f111d2a0eee070173328b439ab993c8bc095a9caacadd5571b73b71d6d1f52b5",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_EXCHANGE_CURRENT",
+      "title": "교환 전류 밀도",
+      "file": "note/교환 전류 밀도.md",
+      "sha256": "0c8ec22894dc7bc6a526a3fcf0bb9232cb21550520871bda8665ac68d3c884ed",
+      "status": "reviewed",
+      "type": "KineticQuantity",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_STRUCTURAL_IDENTIFIABILITY",
+      "title": "구조적 식별가능성",
+      "file": "note/구조적 식별가능성.md",
+      "sha256": "2060bcde22129882d08dafd4da3c83b501c69bf6cb5f350354e4d5a897049e4a",
+      "status": "reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_INDUCTIVE_ARTIFACT",
+      "title": "기생 인덕턴스 왜곡",
+      "file": "note/기생 인덕턴스 왜곡.md",
+      "sha256": "b462e04ab4688eebc32014d8096d591fbeefb44bf13cf37a646b71efb5619531",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_STRAY_CAPACITANCE",
+      "title": "기생 정전용량",
+      "file": "note/기생 정전용량.md",
+      "sha256": "66d8fd7bb47049da66e8468abfd9537ecf0fa4c6a29776d521e1277417774fb4",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_REFERENCE_PLACEMENT",
+      "title": "기준 전극 위치",
+      "file": "note/기준 전극 위치.md",
+      "sha256": "b1005f444798cafb4bc20c7b2eb085a47c8130cbdf7f28b601e9dce3a12ad775",
+      "status": "reviewed",
+      "type": "Condition",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_REFERENCE_ELECTRODE",
+      "title": "기준 전극",
+      "file": "note/기준 전극.md",
+      "sha256": "19e4ea7baec21f2b274041f29a879b789af0303c720c805126605eeff5e56d1d",
+      "status": "reviewed",
+      "type": "InstrumentComponent",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_NYQUIST_PLOT",
+      "title": "나이퀴스트 선도",
+      "file": "note/나이퀴스트 선도.md",
+      "sha256": "667e5f745c955091b7a812511bb784a4bf545d0a8969c56b0b18b63becf4fbbf",
+      "status": "core-reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_ACTIVE_FREQUENCY_SELECTION",
+      "title": "능동 주파수 선택",
+      "file": "note/능동 주파수 선택.md",
+      "sha256": "373f456dc9fea8bbf472643111b22f92bceefca58caba50f6609242accc99d64",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_POROUS_ELECTRODE_TRANSPORT",
+      "title": "다공성 전극 수송",
+      "file": "note/다공성 전극 수송.md",
+      "sha256": "5cb276428f654f118159c664d39d22effc44cac98d18a934441c5c04073444ec",
+      "status": "core-reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_POROUS_TLM",
+      "title": "다공성 전극 전송선 모델",
+      "file": "note/다공성 전극 전송선 모델.md",
+      "sha256": "2d5acc0785f12f3e8c87be6a05547b6339d7990ee737354e775081368b8230e1",
+      "status": "core-reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_MULTISINE",
+      "title": "다중 사인 EIS",
+      "file": "note/다중 사인 EIS.md",
+      "sha256": "eadc0b42e0ab998013e39856d1d3fcd68d8d9bb16daeff4d91715df24dcb7aef",
+      "status": "reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_SINGLE_SINE",
+      "title": "단일 사인 EIS",
+      "file": "note/단일 사인 EIS.md",
+      "sha256": "0c98f0e8f572660e0e15466886ed1f67137937dc57c609d2cbdfca5753141cb6",
+      "status": "core-reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_COATING_APPLICATION",
+      "title": "도막 EIS",
+      "file": "note/도막 EIS.md",
+      "sha256": "e4b050b62824bdf9db87cfc555bc58cbb6c8bf42d21bb2655dd4ed380dc8777f",
+      "status": "reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_DYNAMIC_EIS",
+      "title": "동적 EIS",
+      "file": "note/동적 EIS.md",
+      "sha256": "ac4e8fb8a720f8809ea6005ff41270e44b3f8326807c64d893675c4b1e1d1a6d",
+      "status": "reviewed",
+      "type": "MeasurementMethod",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_STABILITY",
+      "title": "동적 안정성",
+      "file": "note/동적 안정성.md",
+      "sha256": "31be7b00fe88cbaf3f50d1df842aea5585111424a7de8fc462c17d6b0b4d2ba4",
+      "status": "reviewed",
+      "type": "ValidationCriterion",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_EQUIVALENT_CIRCUIT",
+      "title": "등가회로 모델",
+      "file": "note/등가회로 모델.md",
+      "sha256": "6c3b8750ca94fcd12940732a900dfa3361efbe99111fab3356a25e76a9910aac",
+      "status": "core-reviewed",
+      "type": "CircuitModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_CIRCUIT_CLASSIFICATION",
+      "title": "등가회로 분류",
+      "file": "note/등가회로 분류.md",
+      "sha256": "5ec0ea259c3979ed8e9daf7587e2263de11ec597fa0f7ec6df17abd771c3f98e",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_RANDLES_CIRCUIT",
+      "title": "랜들스 회로",
+      "file": "note/랜들스 회로.md",
+      "sha256": "866f88ae7f12c9d71e8645cd493a91086b9136aead037e5576b4c48e2381b328",
+      "status": "core-reviewed",
+      "type": "CircuitModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_PARAMETER_BOUNDS",
+      "title": "매개변수 경계",
+      "file": "note/매개변수 경계.md",
+      "sha256": "e2c86f051bd71f557b07b5edb8ae348c4e27126f4a73895c30bbfde46cfc10d6",
+      "status": "reviewed",
+      "type": "AnalysisInput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_COVARIANCE",
+      "title": "매개변수 공분산",
+      "file": "note/매개변수 공분산.md",
+      "sha256": "e24d0b010581e3d212e6e2c0beb0bcc021853eaeafecf57aae81f8ff0f01c74f",
+      "status": "reviewed",
+      "type": "AnalysisOutput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_PARAMETER_CORRELATION",
+      "title": "매개변수 상관",
+      "file": "note/매개변수 상관.md",
+      "sha256": "b17cfee4c975700066b16f2438e4a313c3e59410f7c631e6c4e1d5445f419361",
+      "status": "core-reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_CONFIDENCE_INTERVAL",
+      "title": "매개변수 신뢰구간",
+      "file": "note/매개변수 신뢰구간.md",
+      "sha256": "7bca10e2e90df0aab985b671837f931ed85877f4f5b3b75647629b259a70474b",
+      "status": "reviewed",
+      "type": "AnalysisOutput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_DUMMY_CELL",
+      "title": "모의 셀 검사",
+      "file": "note/모의 셀 검사.md",
+      "sha256": "01799b9479214067645c54d342bffef9e734061de8d437de4b98bc9033110c08",
+      "status": "reviewed",
+      "type": "ValidationMethod",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_PHYSICS_BASED_MODEL",
+      "title": "물리 기반 임피던스 모델",
+      "file": "note/물리 기반 임피던스 모델.md",
+      "sha256": "01b3d9563fac8bfc4c3f946f0e8151d880bfaaf235c86cab2230b2ae29f9af58",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_PHYSICS_GUIDED_ML",
+      "title": "물리 유도형 EIS 기계 학습",
+      "file": "note/물리 유도형 EIS 기계 학습.md",
+      "sha256": "4b62512c8aa774cb6f53932b45d4506c33bb636480e226dbe3377cafaf9a7852",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_MASS_TRANSPORT",
+      "title": "물질 전달",
+      "file": "note/물질 전달.md",
+      "sha256": "101249c85d5808b252a35a87c10cab5cb2db50cc222a211f0dd940a16edd4c5a",
+      "status": "core-reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_WARBURG_SEMI_INFINITE",
+      "title": "반무한 와버그 임피던스",
+      "file": "note/반무한 와버그 임피던스.md",
+      "sha256": "63e726d541c92e3d66a6d10f0abdfbfe37d880bfcdd73097745b153cf505bc10",
+      "status": "core-reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_SEMI_INFINITE_DIFFUSION",
+      "title": "반무한 확산",
+      "file": "note/반무한 확산.md",
+      "sha256": "70c9c140b0b1f864a4e73958936343e8c713beb8abafb90a36ebd043ec7d3334",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_REPEATABILITY",
+      "title": "반복 측정",
+      "file": "note/반복 측정.md",
+      "sha256": "6591cdf3778b0deb98dc9e11f1846c22ca45b0044e92a5ca18a0b656e1e58ca4",
+      "status": "reviewed",
+      "type": "ValidationMethod",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_REACTION_DIFFUSION",
+      "title": "반응–확산 결합",
+      "file": "note/반응–확산 결합.md",
+      "sha256": "cd33bae719f85401f198420615aeba6bcb40ec8627b289164ec97993c0670eb3",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_BATTERY_APPLICATION",
+      "title": "배터리 EIS",
+      "file": "note/배터리 EIS.md",
+      "sha256": "769db5d9265eafe070b9c4b203d9599c99d2452804942979af6f8db00a9669b3",
+      "status": "core-reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_BUTLER_VOLMER",
+      "title": "버틀러–볼머 식",
+      "file": "note/버틀러–볼머 식.md",
+      "sha256": "4940e408bbdc9d660a09c7c7ed40c11b39e11e425854c302c40c99a9985a3abf",
+      "status": "reviewed",
+      "type": "Equation",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_BAYESIAN_DRT",
+      "title": "베이즈 DRT",
+      "file": "note/베이즈 DRT.md",
+      "sha256": "096212dd4ba84bc047269077cc7eb7a0894d20b0d45e4da746810baa84da750d",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_BAYESIAN_MODEL_SELECTION",
+      "title": "베이즈 모형 선택",
+      "file": "note/베이즈 모형 선택.md",
+      "sha256": "a76e9ba83d590cb0effbcba7bbbe45846874aaa84b02d7b8e34ce14b46140b4a",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_PARALLEL_RC",
+      "title": "병렬 RC 완화",
+      "file": "note/병렬 RC 완화.md",
+      "sha256": "792b7ba5d4ae9e01f31364b74af37a3048b7a8b2e633410b9850134b2cc6d007",
+      "status": "core-reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_PARALLEL_CONNECTION",
+      "title": "병렬 연결",
+      "file": "note/병렬 연결.md",
+      "sha256": "d6f54045da968de35788cfb2225e3d5d0435b08b8585d0bbb4e6a4c51b802c51",
+      "status": "reviewed",
+      "type": "CircuitTopology",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_BODE_PLOT",
+      "title": "보드 선도",
+      "file": "note/보드 선도.md",
+      "sha256": "47cb42c55327011233ef2817c9a4ea6dd0294f8f35b1df32914d54a7374de82f",
+      "status": "core-reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_BODE_PHASE",
+      "title": "보드 위상 선도",
+      "file": "note/보드 위상 선도.md",
+      "sha256": "e1edd177d3602ab311135b9debcc2d1fba492dd71b13268e41d2b97d3af96392",
+      "status": "reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_BODE_MAGNITUDE",
+      "title": "보드 크기 선도",
+      "file": "note/보드 크기 선도.md",
+      "sha256": "f7fad42f23d933348b00c612bf28ac0cf95d36917d44a64984d51b51b2a8f109",
+      "status": "reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_CNLS",
+      "title": "복소 비선형 최소제곱법",
+      "file": "note/복소 비선형 최소제곱법.md",
+      "sha256": "6de7631798168ddb88de50b583603827cd8a5a6d12f1fae88ac0458caada6c78",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_ADMITTANCE",
+      "title": "복소 어드미턴스",
+      "file": "note/복소 어드미턴스.md",
+      "sha256": "b9d81fb86bab79a8bc58bc4ca308028d9c572a18337aee1c7c630664439d2b6c",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_COMPLEX_IMPEDANCE",
+      "title": "복소 임피던스",
+      "file": "note/복소 임피던스.md",
+      "sha256": "ffd6225bfbcc6af54e357e70f0b2e6629cc06871289c64889bb366a47aa1bc15",
+      "status": "core-reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_COMPLEX_MODULUS",
+      "title": "복소 전기 모듈러스",
+      "file": "note/복소 전기 모듈러스.md",
+      "sha256": "7f50cf29fd897f6432d2e47d089fdc329382430e2b6010a7a207d522df73b4d0",
+      "status": "reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_COMPLEX_CAPACITANCE",
+      "title": "복소 정전용량",
+      "file": "note/복소 정전용량.md",
+      "sha256": "353cf45f796e2051a5886c4a7fc98e916b4f5f3f4bdea557666979caf28b8704",
+      "status": "reviewed",
+      "type": "ProcessedObservable",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_COMPLEX_NUMBER",
+      "title": "복소수",
+      "file": "note/복소수.md",
+      "sha256": "a07e073ceb5b177a20c10e82170b491161429bf4b84a06202f369287460d7852",
+      "status": "core-reviewed",
+      "type": "MathematicalObject",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_CORROSION_APPLICATION",
+      "title": "부식 EIS",
+      "file": "note/부식 EIS.md",
+      "sha256": "854dd6b5842a557c98c436e67048d1fa938b8715b59a158ecd331390db83bc5e",
+      "status": "reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_DISTRIBUTED_RELAXATION",
+      "title": "분포 완화 모델",
+      "file": "note/분포 완화 모델.md",
+      "sha256": "591cbf6d6184a32e9c083c814532402043bb8d52c9e6299010b074e20a86473c",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_OOD_DETECTION",
+      "title": "분포 외 탐지",
+      "file": "note/분포 외 탐지.md",
+      "sha256": "96678ffc44b0156a2f32ac350ed604e661fcb68c109b32c320833a4ae11a0e98",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_NONLINEAR_DISTORTION",
+      "title": "비선형 왜곡",
+      "file": "note/비선형 왜곡.md",
+      "sha256": "eb99be28faebe7a775a506b0313356591f7ee3b64122dc099ed6b11a8d3fc872",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_SINUSOID",
+      "title": "사인파 자극",
+      "file": "note/사인파 자극.md",
+      "sha256": "5a94aa3b2f71fd8d136f992bbdfef80466d4f57808407bbd2aa55bed96120e4c",
+      "status": "core-reviewed",
+      "type": "Signal",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_POSTERIOR_PREDICTIVE",
+      "title": "사후예측검사",
+      "file": "note/사후예측검사.md",
+      "sha256": "9202231c688bf3805e98a8100cb5a0e286899e759d0ead291759fbb9bafc3d05",
+      "status": "reviewed",
+      "type": "ValidationMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_COUNTER_ELECTRODE",
+      "title": "상대 전극",
+      "file": "note/상대 전극.md",
+      "sha256": "cb451f22b8025baa207f19a9ca17ee908bcfee89790cf20fb0de83e3a66d9a8d",
+      "status": "reviewed",
+      "type": "Entity",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_CPE",
+      "title": "상수 위상 요소",
+      "file": "note/상수 위상 요소.md",
+      "sha256": "112ccc40251d9f16fb27feaadafc44ccae75ea2ee3a9d8b2014b47ca2e1c3b63",
+      "status": "core-reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_LTI_SYSTEM",
+      "title": "선형 시불변 시스템",
+      "file": "note/선형 시불변 시스템.md",
+      "sha256": "aca0550d21a32e86a676e66de05587a941be9e613ef7d636b4a8345a328d50ac",
+      "status": "core-reviewed",
+      "type": "ModelOrTheory",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_LIN_KK",
+      "title": "선형 크래머스–크로닉 검사",
+      "file": "note/선형 크래머스–크로닉 검사.md",
+      "sha256": "77b90926264739b004a63976cf7c7410d75e13d62d39d12867e462cb5f8cedb5",
+      "status": "core-reviewed",
+      "type": "ValidationMethod",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_GEOMETRY_ARTIFACT",
+      "title": "셀 기하 왜곡",
+      "file": "note/셀 기하 왜곡.md",
+      "sha256": "9551a37265a93080e00b78f15b6134a25e93d32d393a7f213533c891fde584a0",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_SMALL_SIGNAL",
+      "title": "소신호 근사",
+      "file": "note/소신호 근사.md",
+      "sha256": "264abfe10a941ccb292fe4e0de2b1567526a50f99309c18abe2bd84053a2be9e",
+      "status": "core-reviewed",
+      "type": "Approximation",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_SPECTRAL_LEAKAGE",
+      "title": "스펙트럼 누설",
+      "file": "note/스펙트럼 누설.md",
+      "sha256": "2c5a89abd55edd6eb3a896f89d45f06cf3118561cc0eb7ceaa13b8780164feee",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_TIME_CONSTANT",
+      "title": "시간상수",
+      "file": "note/시간상수.md",
+      "sha256": "60cdba59ec6f6c823bebb7d6ab43c4cfff82ee85b6be8f8ee118844722b4c2fe",
+      "status": "core-reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_PRACTICAL_IDENTIFIABILITY",
+      "title": "실용적 식별가능성",
+      "file": "note/실용적 식별가능성.md",
+      "sha256": "ecdae40d69c058379aac93a73aa73e7cede1dbb56b0496e1af0ebb2357f5cb95",
+      "status": "core-reviewed",
+      "type": "AnalysisConcept",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_ADMITTANCE_PLOT",
+      "title": "어드미턴스 표현",
+      "file": "note/어드미턴스 표현.md",
+      "sha256": "cce34062036d5e1d446c05f92aed5f0684fc3ebd07cdaa1e9733b62f5666abab",
+      "status": "reviewed",
+      "type": "DataRepresentation",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_FUEL_CELL_APPLICATION",
+      "title": "연료전지 EIS",
+      "file": "note/연료전지 EIS.md",
+      "sha256": "391313ae7a7be9903695963dea1658d0db8922dd783dc422e2f173b0369ed537",
+      "status": "reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_UNCERTAINTY_CALIBRATION",
+      "title": "예측 불확실성 보정",
+      "file": "note/예측 불확실성 보정.md",
+      "sha256": "049325c1ea93f7137ffda9c133e00125902e1fc7a4c9390d8a9823974a41e860",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_EULER_RELATION",
+      "title": "오일러 공식",
+      "file": "note/오일러 공식.md",
+      "sha256": "b10ff8d1d79fbf1f6f7959ccefdbda39c7cafe7a3635dafdfb9aa2ee6a7c5f07",
+      "status": "reviewed",
+      "type": "Equation",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_RELAXATION_PROCESS",
+      "title": "완화 과정",
+      "file": "note/완화 과정.md",
+      "sha256": "cc14c7043277b8ae9c33431d278ff3281e9917b0963b7359e402676483dbac87",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_DRT",
+      "title": "완화 시간 분포",
+      "file": "note/완화 시간 분포.md",
+      "sha256": "6b037fa46d16195b60e5c310bd39a0fa10d91549f713e18f8b67450dced2c10c",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_SOLUTION_RESISTANCE",
+      "title": "용액 저항",
+      "file": "note/용액 저항.md",
+      "sha256": "1b11871b9a61095bc573555a412a5d3b67126861adb1895ae59bba68a00ef3e2",
+      "status": "core-reviewed",
+      "type": "ProcessParameter",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_RAW_DATA",
+      "title": "원시 EIS 데이터",
+      "file": "note/원시 EIS 데이터.md",
+      "sha256": "93ac36213204d2485eebbadfa673054f9a8c65ef15b91afd8ba52500b394bdb9",
+      "status": "reviewed",
+      "type": "DataStructure",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_PHASE_ANGLE",
+      "title": "위상각",
+      "file": "note/위상각.md",
+      "sha256": "2e4dfdbaf2869a8ed4edc1d1aae2afa94b309ba834da24c0fd77c4d34049bb2a",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_INDUCTIVE_LOOP",
+      "title": "유도성 루프",
+      "file": "note/유도성 루프.md",
+      "sha256": "d2743caa727ce0674c931507ceec2d4d765709b306e2ada672c4ece69e1033ef",
+      "status": "reviewed",
+      "type": "SpectralFeature",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_WARBURG_FINITE",
+      "title": "유한 길이 와버그 임피던스",
+      "file": "note/유한 길이 와버그 임피던스.md",
+      "sha256": "fce3924ee402cb18a973f6a57b329342a463d01f02073a4878c8d2a9365dac7a",
+      "status": "reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_FINITE_BANDWIDTH",
+      "title": "유한 주파수 대역",
+      "file": "note/유한 주파수 대역.md",
+      "sha256": "97523ab00437703720278a2429b6e5633a2096260c5addc2207f359a24543847",
+      "status": "core-reviewed",
+      "type": "Limitation",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_FINITE_DIFFUSION",
+      "title": "유한 확산",
+      "file": "note/유한 확산.md",
+      "sha256": "7cb46f93828b0f8e8ce71ca3c678e42a2a52dbc9e9ecb5982417842e14b6306a",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_DISCRETE_DRT",
+      "title": "이산 DRT",
+      "file": "note/이산 DRT.md",
+      "sha256": "af29550775f1fd264d0f2c36b836b68f9d4adef2b55000e5127a33761b50bf8d",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_INDUCTOR",
+      "title": "이상적 인덕터",
+      "file": "note/이상적 인덕터.md",
+      "sha256": "5f4bdd503627a94405655bf4f8bce58bf478ab96e622cf1b4a77f5e6d4ddb621",
+      "status": "reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_RESISTOR",
+      "title": "이상적 저항기",
+      "file": "note/이상적 저항기.md",
+      "sha256": "da81918a2968da7cd6db4ef1b02c397e7de99d5b6ebe7033b0e907d7670960bc",
+      "status": "core-reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_CAPACITOR",
+      "title": "이상적 축전기",
+      "file": "note/이상적 축전기.md",
+      "sha256": "2cea0286a43d8728e0240e7f26a1747ae98fb63617a95d8cf978679269c19fc9",
+      "status": "core-reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_IONIC_CONDUCTION",
+      "title": "이온 전도",
+      "file": "note/이온 전도.md",
+      "sha256": "131c166ad0032b87658615f29c75bdbf69fb04d93d01233fdfdd04b07734b68b",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_DOUBLE_LAYER_CAPACITANCE",
+      "title": "이중층 정전용량",
+      "file": "note/이중층 정전용량.md",
+      "sha256": "80fa766b0f6073cd833ccf8464fbe9b5580d3dff731e397ecec6665714e3fe0b",
+      "status": "reviewed",
+      "type": "ModelParameter",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_DOUBLE_LAYER_CHARGING",
+      "title": "이중층 충전",
+      "file": "note/이중층 충전.md",
+      "sha256": "7fd14f39ed7da8500f427ff8b8277e5fd3eb225902753064b88259779e974374",
+      "status": "core-reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_CAUSALITY",
+      "title": "인과성",
+      "file": "note/인과성.md",
+      "sha256": "3cb0d238c2bd4dca1976614c5de8e1b278e939df8287d5fff8332b457edf0987",
+      "status": "reviewed",
+      "type": "ValidationCriterion",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_GCV",
+      "title": "일반화 교차검증",
+      "file": "note/일반화 교차검증.md",
+      "sha256": "d810b03046a811a16dcd6de631b67b194878856af6e215f0d1627fb0c416d3cc",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_REAL_PART",
+      "title": "임피던스 실수부",
+      "file": "note/임피던스 실수부.md",
+      "sha256": "6b3b82ee98b7973eb5c8e78031eaaee796b7b6d3491704444225f92ec9e465dc",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_IMPEDANCE_MAGNITUDE",
+      "title": "임피던스 크기",
+      "file": "note/임피던스 크기.md",
+      "sha256": "0240e2fbcdd9b5b61354bff5087b25e2d4f4b962a53872fccdc38a2996e0293d",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_IMAGINARY_PART",
+      "title": "임피던스 허수부",
+      "file": "note/임피던스 허수부.md",
+      "sha256": "6c077d6e2204d0b524e552dfca5a271789492fdaa3b876897a535b3b651f4ec7",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_AMPLITUDE",
+      "title": "자극 진폭",
+      "file": "note/자극 진폭.md",
+      "sha256": "bfaede87c37e8f1206fd42acbe9a7ad99942e9bfbf80c140cf23629a77bd831e",
+      "status": "core-reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_WORKING_ELECTRODE",
+      "title": "작업 전극",
+      "file": "note/작업 전극.md",
+      "sha256": "0c75f6f6e206bdb4df75a91a061c44d12cdea9170613ff048201f8a47e5e940f",
+      "status": "reviewed",
+      "type": "Entity",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_RESIDUAL_ANALYSIS",
+      "title": "잔차 분석",
+      "file": "note/잔차 분석.md",
+      "sha256": "8a15d949508bb72a20f6f6dcdc3a167cfddfaada9b81f5f24dbdb3562f0357f1",
+      "status": "core-reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_RESIDUAL_SPECTRUM",
+      "title": "잔차 스펙트럼",
+      "file": "note/잔차 스펙트럼.md",
+      "sha256": "e5256c9154b681a3c0e1ef18d5886f6102e73efb7be506ab59f26500dbaeac65",
+      "status": "core-reviewed",
+      "type": "ProcessedObservable",
+      "domain": "representations"
+    },
+    {
+      "id": "EIS_LOW_FREQUENCY_ARTIFACT",
+      "title": "저주파 비정상성 왜곡",
+      "file": "note/저주파 비정상성 왜곡.md",
+      "sha256": "d9843d9af86bb03e919b790b0acf60131b466884c8b2351423a7a64bf18a5508",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_MIGRATION",
+      "title": "전기장에 의한 이온 이동",
+      "file": "note/전기장에 의한 이온 이동.md",
+      "sha256": "34210dc5d959deb76b0fc7a7eab7a72f8339b8cb612119b22841e0077a5147b8",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_ELECTROCATALYSIS_APPLICATION",
+      "title": "전기촉매 EIS",
+      "file": "note/전기촉매 EIS.md",
+      "sha256": "4cffcc47e318da0f04c761a80052638af5d6726fb04a8c26f413fc5f2a297116",
+      "status": "reviewed",
+      "type": "Application",
+      "domain": "applications"
+    },
+    {
+      "id": "EIS_ELECTROCHEMICAL_IMPEDANCE_SPECTROSCOPY",
+      "title": "전기화학 임피던스 분광법",
+      "file": "note/전기화학 임피던스 분광법.md",
+      "sha256": "c1a3b95af28a6e0d05accc79042f572d6548dd6a7c5590ccb91d4b5138014ed3",
+      "status": "core-reviewed",
+      "type": "MeasurementMethod",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_OPERATING_POINT",
+      "title": "전기화학 작동점",
+      "file": "note/전기화학 작동점.md",
+      "sha256": "2cbd47ba216ca16d422a12cb3739fa3811038f91cf7aaa5dfecf4463177b8bca",
+      "status": "core-reviewed",
+      "type": "Condition",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_TRANSFER_FUNCTION",
+      "title": "전달함수",
+      "file": "note/전달함수.md",
+      "sha256": "a12b1830b70602b621994014a39c7b0a7f5983ac28f3a3e1f05cb6ec9c824240",
+      "status": "reviewed",
+      "type": "MathematicalObject",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_RANGE_SWITCHING",
+      "title": "전류 범위 전환 왜곡",
+      "file": "note/전류 범위 전환 왜곡.md",
+      "sha256": "e5cfe04c05d80853ce4766a18a95172f1272109cb7c193ffe41bdd3d7778ffc1",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_CURRENT_DISTRIBUTION",
+      "title": "전류 분포",
+      "file": "note/전류 분포.md",
+      "sha256": "cccc1d59a24bef75f1f7887848e0757f25b95544f6eb466411ab43c075ea33f9",
+      "status": "reviewed",
+      "type": "PhysicalField",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_GALVANOSTATIC",
+      "title": "전류 제어 EIS",
+      "file": "note/전류 제어 EIS.md",
+      "sha256": "9f1edaee6cc7cc275a77c64b6ec3a90028590fc1444db683b602116dbd478506",
+      "status": "reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_TRANSMISSION_LINE_ELEMENT",
+      "title": "전송선 요소",
+      "file": "note/전송선 요소.md",
+      "sha256": "8a3b177173b6277eb3a88e7cbcfc92205f286351a6b25dde8d176059c90b47c9",
+      "status": "reviewed",
+      "type": "CircuitElement",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_POTENTIOSTATIC",
+      "title": "전위 제어 EIS",
+      "file": "note/전위 제어 EIS.md",
+      "sha256": "e83f6b9fa49d1ce72b69b3a4e71801871cf09a626c357e289dab96daed343c79",
+      "status": "core-reviewed",
+      "type": "MeasurementMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_ELECTRONIC_CONDUCTION",
+      "title": "전자 전도",
+      "file": "note/전자 전도.md",
+      "sha256": "68050f015b2fb29413857971565e3cc79bab378c179b910ec93221b1c68fa964",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_CHARGE_TRANSFER_RESISTANCE",
+      "title": "전하 이동 저항",
+      "file": "note/전하 이동 저항.md",
+      "sha256": "457dce4c25a6d79e9668485552749106bb13496ee709413b68ae0862b5cd9185",
+      "status": "core-reviewed",
+      "type": "ModelParameter",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_CONTACT_RESISTANCE",
+      "title": "접촉 저항",
+      "file": "note/접촉 저항.md",
+      "sha256": "4b5c0e3485851c17ff7838888f2615cecd4cb4d9c928a3254a9eaf36c06a140e",
+      "status": "reviewed",
+      "type": "ProcessParameter",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_INFORMATION_CRITERIA",
+      "title": "정보 기준",
+      "file": "note/정보 기준.md",
+      "sha256": "c5431470d1dd97a587b27c5e2050b1f72d71479b3adfe001e794ffdaef2163d6",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_GALVANOSTAT",
+      "title": "정전류기",
+      "file": "note/정전류기.md",
+      "sha256": "0987e88007ed09766a5f9be2a89953af7f8ac775f13b3ea64e9fc67d9dfb95a7",
+      "status": "reviewed",
+      "type": "InstrumentComponent",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_POTENTIOSTAT",
+      "title": "정전위기",
+      "file": "note/정전위기.md",
+      "sha256": "9d614aedd7445576ee0080d13f20167c0f1eab1a5f1bced542219724ab5f5b6e",
+      "status": "core-reviewed",
+      "type": "InstrumentComponent",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_REGULARIZATION_PARAMETER",
+      "title": "정칙화 매개변수",
+      "file": "note/정칙화 매개변수.md",
+      "sha256": "5e35ec66d19a217415c0dd2c1b6c7c7cb33d4fe014526491af81543976f30e34",
+      "status": "reviewed",
+      "type": "AnalysisParameter",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_OUT_OF_BAND_PREDICTION",
+      "title": "제외 대역 예측",
+      "file": "note/제외 대역 예측.md",
+      "sha256": "3d217d9ca7e1bdfc96563ab94da7be273a35746a72cfbc2d17e45840502fecb5",
+      "status": "reviewed",
+      "type": "AnalysisOutput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_CYCLES_INTEGRATION",
+      "title": "주기 수와 적분 시간",
+      "file": "note/주기 수와 적분 시간.md",
+      "sha256": "c75201c5bfe384fd1cc13cfdc31f1590200c724e55a2c150c53bbac8928b785b",
+      "status": "reviewed",
+      "type": "Condition",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_PERIOD",
+      "title": "주기",
+      "file": "note/주기.md",
+      "sha256": "ff3cf845ce62a92756b73127f171c7872e8b98e414cf0229e7c1ab122ec84339",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_FREQUENCY_GRID",
+      "title": "주파수 격자",
+      "file": "note/주파수 격자.md",
+      "sha256": "c27621b81e5c3ca0eb665dee609807310fc02b24803168935c4ac2d500e8c613",
+      "status": "reviewed",
+      "type": "Condition",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_BAND_DELETION",
+      "title": "주파수 대역 삭제 검증",
+      "file": "note/주파수 대역 삭제 검증.md",
+      "sha256": "539ff20ec156df3714017f227a5f5b8c53b5c2ba3f7598357ad89a8ff30416b2",
+      "status": "core-reviewed",
+      "type": "ValidationMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_FRA",
+      "title": "주파수 응답 분석기",
+      "file": "note/주파수 응답 분석기.md",
+      "sha256": "3090ebac9be4220deabb20749ada49e3b575a58a019bacd65a1f077d9977f8d6",
+      "status": "reviewed",
+      "type": "InstrumentComponent",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_FREQUENCY_RESPONSE",
+      "title": "주파수 응답",
+      "file": "note/주파수 응답.md",
+      "sha256": "fc3951b91c462c103a0fc77a28b2d14e3a70c8af9a622d5a20386e80a942cf14",
+      "status": "reviewed",
+      "type": "Observable",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_FREQUENCY_ORDER",
+      "title": "주파수 측정 순서 효과",
+      "file": "note/주파수 측정 순서 효과.md",
+      "sha256": "f95f5a31a6fecdfa803530e9c2cfbb090acf28b6b681848e317511872218ece6",
+      "status": "reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_FREQUENCY",
+      "title": "주파수",
+      "file": "note/주파수.md",
+      "sha256": "25b8b67e1d46117986f950199eedf48c78deb695669ad6a3878f57928e7a0af2",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_SERIES_CONNECTION",
+      "title": "직렬 연결",
+      "file": "note/직렬 연결.md",
+      "sha256": "8ef80c57e0b055e7268669a6a1b8811917accfe898c6f5a13caf03efa0130aa8",
+      "status": "reviewed",
+      "type": "CircuitTopology",
+      "domain": "elements"
+    },
+    {
+      "id": "EIS_AMPLITUDE_TEST",
+      "title": "진폭 의존성 검사",
+      "file": "note/진폭 의존성 검사.md",
+      "sha256": "a811297d0ce1a2d50e3da52f0c9696f00f1898cb6258c399cc63af9b212f20fe",
+      "status": "core-reviewed",
+      "type": "ValidationMethod",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_BLOCKING_ELECTRODE_MODEL",
+      "title": "차단 전극 모델",
+      "file": "note/차단 전극 모델.md",
+      "sha256": "091b17ed774e454236e198d72740d3e3c1e66295da125f5c3994014d54f7b8d0",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_SHIELDING_GROUNDING",
+      "title": "차폐와 접지",
+      "file": "note/차폐와 접지.md",
+      "sha256": "7c89cd77ac266fa5acd0644812d6e4e6bc670c90bfd62df9f1ebe232628660d5",
+      "status": "reviewed",
+      "type": "Procedure",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_WINDOWING",
+      "title": "창 함수 적용",
+      "file": "note/창 함수 적용.md",
+      "sha256": "fbc0969c0e0cd64a7da8a365f651621845aff0b96918cf922d1c5d2778b56ac5",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_INITIAL_GUESS",
+      "title": "초기 매개변수",
+      "file": "note/초기 매개변수.md",
+      "sha256": "ae2625189b855f7bc919145a0f0e694ffb1f31a55b498822111dee0aed988eb8",
+      "status": "reviewed",
+      "type": "AnalysisInput",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_EQUILIBRATION",
+      "title": "측정 전 평형화",
+      "file": "note/측정 전 평형화.md",
+      "sha256": "d30b465369a2553a829ca32cddaa422a51159ca7a8c6cff67b128712c8a9eb24",
+      "status": "reviewed",
+      "type": "Procedure",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_DRIFT",
+      "title": "측정 중 드리프트",
+      "file": "note/측정 중 드리프트.md",
+      "sha256": "31b1141c28d1109697727c0101e7ded6cbe5148a28fdbc871470ed88b29fd843",
+      "status": "core-reviewed",
+      "type": "Artifact",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_CABLE_FIXTURE",
+      "title": "케이블과 측정 지그",
+      "file": "note/케이블과 측정 지그.md",
+      "sha256": "4b01837443c9467d8ceb8fca3b84a1f2ff871b324ffc2ebae98961333e8ade64",
+      "status": "reviewed",
+      "type": "InstrumentComponent",
+      "domain": "measurement"
+    },
+    {
+      "id": "EIS_KRAMERS_KRONIG",
+      "title": "크래머스–크로닉 관계",
+      "file": "note/크래머스–크로닉 관계.md",
+      "sha256": "f77bc2c912e9f7a81d677923d4a23931a1c0deed25d34725ffc0c19fa8b413f6",
+      "status": "core-reviewed",
+      "type": "Law",
+      "domain": "validation"
+    },
+    {
+      "id": "EIS_CHARACTERISTIC_FREQUENCY",
+      "title": "특성 주파수",
+      "file": "note/특성 주파수.md",
+      "sha256": "42e11503fd0c1e035d6691c67e2603016a18076667bf95a1d5c8766230fb8d9d",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "principles"
+    },
+    {
+      "id": "EIS_TIKHONOV_REGULARIZATION",
+      "title": "티호노프 정칙화",
+      "file": "note/티호노프 정칙화.md",
+      "sha256": "a67247793ec34157e1a481ddba24ed7ef2133caaa82e029ae31202bb12fa0000",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_FARADAIC_ELECTRODE_MODEL",
+      "title": "패러데이 전극 모델",
+      "file": "note/패러데이 전극 모델.md",
+      "sha256": "bb8f747b3681ba7e2f6f6aead803af155d46913084f0506718f183ecf0c762e6",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_PHASOR",
+      "title": "페이저",
+      "file": "note/페이저.md",
+      "sha256": "e48e7bfa93c8311f6f89175ca21663189a1e30b09bf6b127559902452c603e02",
+      "status": "reviewed",
+      "type": "MathematicalObject",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_SURFACE_COVERAGE",
+      "title": "표면 피복률",
+      "file": "note/표면 피복률.md",
+      "sha256": "66680b14e002143edd5d74d5e94711a4335b8418fee350c4186611721745f789",
+      "status": "reviewed",
+      "type": "StateVariable",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_PROFILE_LIKELIHOOD",
+      "title": "프로파일 우도",
+      "file": "note/프로파일 우도.md",
+      "sha256": "bd42495e9da68d9f2e15bf9d78adaa58fdb77ed8c4e5a9a9d17e89f872080134",
+      "status": "reviewed",
+      "type": "AnalysisMethod",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_FICK_LAW",
+      "title": "픽 확산 법칙",
+      "file": "note/픽 확산 법칙.md",
+      "sha256": "d64a72421132d4d5a14aaf7db3ce9a59de6d308390262f52da6d27758f84afd2",
+      "status": "reviewed",
+      "type": "Law",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_IMAGINARY_UNIT",
+      "title": "허수 단위",
+      "file": "note/허수 단위.md",
+      "sha256": "2aa949697034a11da1c4b9d9f801ab6268022a10d17a83bc92cdf58009ba22a8",
+      "status": "reviewed",
+      "type": "MathematicalObject",
+      "domain": "foundations"
+    },
+    {
+      "id": "EIS_DIFFUSION_TIME",
+      "title": "확산 시간",
+      "file": "note/확산 시간.md",
+      "sha256": "fd3c5bd758fb7a620c2fbd153f358741dc7f7769a29b23cd5b98c3ec316ea560",
+      "status": "reviewed",
+      "type": "PhysicalQuantity",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_DIFFUSION_MODEL",
+      "title": "확산 임피던스 모델",
+      "file": "note/확산 임피던스 모델.md",
+      "sha256": "01dacceac2d93c3387a1f521a17cf27baff47317f4aa13c1bf11cee48ce3288e",
+      "status": "core-reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_DIFFUSION",
+      "title": "확산",
+      "file": "note/확산.md",
+      "sha256": "c061c5aef3d8cac1d7c40c9774cc33b7de187983e792947cd31729b94b173b4e",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_DIFFUSION_COEFFICIENT",
+      "title": "확산계수",
+      "file": "note/확산계수.md",
+      "sha256": "fe7173ab897ead13c5b3896ad3f1aab792c1593116c481f6480fd6471b5ce000",
+      "status": "reviewed",
+      "type": "TransportQuantity",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_CIRCUIT_TOPOLOGY",
+      "title": "회로 구조",
+      "file": "note/회로 구조.md",
+      "sha256": "d7d1ea671098232793a4bbb3abeabbb389058f42741614670229936c94739687",
+      "status": "reviewed",
+      "type": "Concept",
+      "domain": "models"
+    },
+    {
+      "id": "EIS_TOPOLOGY_NONUNIQUENESS",
+      "title": "회로 구조의 비고유성",
+      "file": "note/회로 구조의 비고유성.md",
+      "sha256": "5bf50f6aca5e26f7fc371e2686d3f12c73418a2b34553c186576ba4ffdc112b7",
+      "status": "core-reviewed",
+      "type": "Limitation",
+      "domain": "analysis"
+    },
+    {
+      "id": "EIS_ADSORPTION_RELAXATION",
+      "title": "흡착 완화",
+      "file": "note/흡착 완화.md",
+      "sha256": "a6533545942dcf3343e5eb65385851e47ed72133cabe7016996f8d1d70e903c3",
+      "status": "reviewed",
+      "type": "Process",
+      "domain": "processes"
+    },
+    {
+      "id": "EIS_ADSORPTION_MODEL",
+      "title": "흡착 임피던스 모델",
+      "file": "note/흡착 임피던스 모델.md",
+      "sha256": "d93aa5d0fcf0156df27346280411dca32d6207c918decf253d7b46b336e21266",
+      "status": "reviewed",
+      "type": "PhysicalModel",
+      "domain": "models"
+    },
+    {
+      "id": "MOC_PRINCIPLES",
+      "title": "EIS 기본 원리",
+      "file": "moc/EIS 기본 원리.md",
+      "sha256": "9adb4d96f7370eda5bb9256a81dee542570fef4796d8c807e5db71d07d0f04ce",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "principles"
+    },
+    {
+      "id": "MOC_VALIDATION",
+      "title": "검증과 측정 왜곡",
+      "file": "moc/검증과 측정 왜곡.md",
+      "sha256": "19c47a503885c54555a82d6e21ebd769dff2412010902336fe5660c9525b0d75",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "validation"
+    },
+    {
+      "id": "MOC_REPRESENTATIONS",
+      "title": "데이터 표현",
+      "file": "moc/데이터 표현.md",
+      "sha256": "b3bf2c18785750e9a253491de65c043c03846da35fc98a2fda17e207f67f486d",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "representations"
+    },
+    {
+      "id": "MOC_MODELS",
+      "title": "등가회로와 물리 모델",
+      "file": "moc/등가회로와 물리 모델.md",
+      "sha256": "a6f866a41a58538cbfc0985bbf18839a6d00834d660af587fc572d816dc389aa",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "models"
+    },
+    {
+      "id": "MOC_ANALYSIS",
+      "title": "분석과 역문제",
+      "file": "moc/분석과 역문제.md",
+      "sha256": "87dfc147683426d170d59161606c467e2627836bc44997a1d7c20cb256cede80",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "analysis"
+    },
+    {
+      "id": "MOC_FOUNDATIONS",
+      "title": "수학과 신호 기초",
+      "file": "moc/수학과 신호 기초.md",
+      "sha256": "296d5eb39a81f5616af004f47c3f65d0efad7bedf8cfdf3d135c7b3429fc85f2",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "foundations"
+    },
+    {
+      "id": "MOC_APPLICATIONS",
+      "title": "응용과 보고",
+      "file": "moc/응용과 보고.md",
+      "sha256": "46126892ef6b5976f9d7d7507a870afa78f8ec11c92beb0ee58f8d8e7d477e59",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "applications"
+    },
+    {
+      "id": "MOC_PROCESSES",
+      "title": "전기화학 과정",
+      "file": "moc/전기화학 과정.md",
+      "sha256": "3377d733a2d26b8649cac5af18992020760148e7e4e50243cf3f3bd53c28beb8",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "processes"
+    },
+    {
+      "id": "MOC_MEASUREMENT",
+      "title": "측정과 계측",
+      "file": "moc/측정과 계측.md",
+      "sha256": "43d3d2c1e521b9f6a5abd29c008e00ea9f5ea679bd157e41e22d486c902a7edf",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "measurement"
+    },
+    {
+      "id": "MOC_ELEMENTS",
+      "title": "회로 요소",
+      "file": "moc/회로 요소.md",
+      "sha256": "fdf30342ce82dfc2ba1c108389854dbb1cedd27b0673be8f1001207dcb56ff80",
+      "status": "reviewed",
+      "type": "DomainMap",
+      "domain": "elements"
+    },
+    {
+      "id": "GRAPH_EIS_OVERVIEW",
+      "title": "EIS 개념 연결 지도",
+      "file": "graph/EIS 개념 연결 지도.md",
+      "sha256": "dd066bfb3a69f6b6b6b068e59b3cb538120ba3588b0096bec4d05d22c2e1ebce",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "principles"
+    },
+    {
+      "id": "GRAPH_VALIDATION",
+      "title": "EIS 검증과 측정 왜곡",
+      "file": "graph/EIS 검증과 측정 왜곡.md",
+      "sha256": "79d49c3effcadaae9963ae298d1c968632de497f9c88a03c2d3939fd2a1889b7",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "validation"
+    },
+    {
+      "id": "GRAPH_INVERSE_PROBLEM",
+      "title": "EIS 분석과 역문제",
+      "file": "graph/EIS 분석과 역문제.md",
+      "sha256": "d47d53f27197bf12abb6bfc64e2656537b83b75f93e2bde6c025ef42ea6ddf5a",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "analysis"
+    },
+    {
+      "id": "GRAPH_APPLICATIONS",
+      "title": "EIS 응용 연결 지도",
+      "file": "graph/EIS 응용 연결 지도.md",
+      "sha256": "a079013a541d68652f8bf7d48c82be26764b2673d6f6ea7f10403c110401004f",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "applications"
+    },
+    {
+      "id": "GRAPH_MEASUREMENT_CHAIN",
+      "title": "EIS 측정 경로",
+      "file": "graph/EIS 측정 경로.md",
+      "sha256": "d205bb13a07681a00590248200b84e7bf40fac2c25a5c9021592fccd34c62cf9",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "measurement"
+    },
+    {
+      "id": "GRAPH_TIME_SCALES",
+      "title": "주파수와 시간척도",
+      "file": "graph/주파수와 시간척도.md",
+      "sha256": "13d2395876a924b36ed2bd428ef73952c174b247d99365cb86afe6274fd13747",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "foundations"
+    },
+    {
+      "id": "GRAPH_CIRCUIT_PROCESS",
+      "title": "회로 요소와 전기화학 과정",
+      "file": "graph/회로 요소와 전기화학 과정.md",
+      "sha256": "b414f4111ae22edcbabc31dde8d5a9bbb6f1e3bd67c8c70ddf817b4c989358d5",
+      "status": "reviewed",
+      "type": "GraphView",
+      "domain": "models"
+    },
+    {
+      "id": "PAGE_HOME",
+      "title": "EIS 지식 위키",
+      "file": "pages/EIS 지식 위키.md",
+      "sha256": "890102d07d6b8ef386389f33544a1f4310a4cb7415c3410e3948c1db90fc470f",
+      "status": "reviewed",
+      "type": "Page",
+      "domain": "principles"
+    }
+  ]
+}
